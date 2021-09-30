@@ -38,7 +38,6 @@
       <img :src="getImgUrl(chosenCPImg)" v-bind:alt="chosenCPImg">
       <h2>{{chosenCP}}</h2>
       <p class="people">{{cpPeople}}</p>
-      <br>
       <div>
         <p>适配度前五名</p>
         <ul class="ranking text-light small">
