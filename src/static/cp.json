@@ -1,0 +1,52 @@
+{
+  "HDY": {
+    "name": "好多宇",
+    "people": "赞多 刘宇",
+    "img": "hdy.jpg"
+  },
+  "YZL": {
+    "name": "元周率",
+    "people": "周柯宇 张嘉元",
+    "img": "yzl.gif"
+  },
+  "SYDT": {
+    "name": "双宇电台",
+    "people": "周柯宇 尹浩宇",
+    "img": "sydt.gif"
+  },
+  "BFZY": {
+    "name": "暴风周宇",
+    "people": "周柯宇 刘宇",
+    "img": "bfzy.jpg"
+  },
+  "LZMQ": {
+    "name": "林阵磨枪",
+    "people": "刘彰 林墨",
+    "img": "lzmq.jpg"
+  },
+  "FJYL": {
+    "name": "风景元林",
+    "people": "张嘉元 林墨",
+    "img": "fjyl.jpg"
+  },
+  "ZJWL": {
+    "name": "赞就丸了",
+    "people": "赞多 力丸",
+    "img": "zjwl.jpg"
+  },
+  "HHXC": {
+    "name": "浩瀚星尘",
+    "people": "尹浩宇 高卿尘",
+    "img": "hhxc.jpg"
+  },
+  "RDYL": {
+    "name": "热带宇林",
+    "people": "周柯宇 林墨",
+    "img": "rdyl.jpg"
+  },
+  "HHYY": {
+    "name": "花浩月远",
+    "people": "尹浩宇 伯远",
+    "img": "hhyy.jpg"
+  }
+}

@@ -1,0 +1,154 @@
+.button6 {
+  display:inline-block;
+  padding:0.7em 1.4em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.15em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  text-transform:uppercase;
+  font-weight:400;
+  color: #30312f;
+  background-color: lightseagreen;
+  box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  text-align:center;
+  position:relative;
+}
+.button6:active{
+  top:0.1em;
+}
+.button6.options{
+  background-color: ghostwhite;
+  color: #6666da;
+}
+.button6.return{
+  background-color: lightsalmon;
+}
+
+html,body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider-wrapper {
+  font-size: 35px;
+  color:#aaa;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider {
+  height: 50px;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.slider div {
+  color:#fff;
+  height: 50px;
+  margin-bottom: 50px;
+  padding: 2px 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.slider-text1 {
+  background: #cc7792;
+  animation: slide 3s linear infinite;
+}
+.slider-text2 {
+  background: #37588d;
+}
+.slider-text3 {
+  background: #ff5900;
+}
+.slider-text4 {
+  background: #baa2ef;
+}
+@keyframes slide {
+  0% {margin-top:-400px;}
+  3% {margin-top:-300px;}
+  25% {margin-top:-300px;}
+  28% {margin-top:-200px;}
+  50% {margin-top:-200px;}
+  53% {margin-top:-100px;}
+  75% {margin-top:-100px;}
+  78% {margin-top:0;}
+  100% {margin-top:0px;}
+}
+
+@media all and (max-width:30em){
+   button6{
+    display:block;
+    margin:0.4em auto;
+  }
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+#countdown {
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+#countdown-number {
+  color: white;
+  display: inline-block;
+  line-height: 40px;
+}
+
+svg {
+  width: 40px;
+  height: 40px;
+  transform: rotateY(-180deg) rotateZ(-90deg);
+}
+
+svg circle {
+  stroke-dasharray: 113px;
+  stroke-dashoffset: 0;
+  stroke-linecap: square;
+  stroke-width: 3px;
+  stroke: white;
+  fill: none;
+}
+circle.easy {
+  animation: countdown 20s linear infinite forwards;
+}
+circle.hard {
+  animation: countdown 10s linear infinite forwards;
+}
+.form-check {
+  text-align: left;
+  padding-left: 0;
+}
+.form-check input {
+  margin-right: 3px;
+}
+
+@keyframes countdown {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 113px;
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "q": "可以磕到异国CP",
+    "a": {
+      "y": {"HDY": 10, "SYDT": 10, "HHYY": 10},
+      "n": {"HDY": -10, "SYDT": -10, "HHYY": -10}
+    }
+  },
+  {
+    "q": "可以磕到有纯种外国人的CP",
+    "a": {
+      "y": {"HDY": 10, "SYDT": 10, "ZJWL": 10, "HHXC": 10, "HHYY": 10},
+      "n": {"HDY": -10, "SYDT": -10, "ZJWL": -10, "HHXC": -10, "HHYY": -10}
+    }
+  },
+  {
+    "q": "更喜欢年龄差大于3岁的CP",
+    "a": {
+      "y": {"ZJWL": 10, "HHXC": 10, "HHYY": 10, "HDY": -10, "YZL": -10, "SYDT": -10, "BFZY": -10, "LZMQ": -10, "FJYL": -10, "RDYL": -10},
+      "n": {"ZJWL": -10, "HHXC": -10, "HHYY": -10, "HDY": 10, "YZL": 10, "SYDT": 10, "BFZY": 10, "LZMQ": 10, "FJYL": 10, "RDYL": 10}
+    }
+  },
+  {
+    "q": "比起年上，更喜欢年下",
+    "a": {
+      "y": {"BFZY": 10, "FJYL": 10, "ZJWL": 10, "HHXC": 10, "RDYL": 10, "HHYY": 10, "HDY": -10, "YZL": -10, "SYDT": -10, "LZMQ": -10},
+      "n": {"BFZY": -10, "FJYL": -10, "ZJWL": -10, "HHXC": -10, "RDYL": -10, "HHYY": -10, "HDY": 10, "YZL": 10, "SYDT": 10, "LZMQ": 10}
+    }
+  },
+  {
+    "q": "喜欢身高差在5cm内的CP",
+    "a": {
+      "y": {"YZL": 10, "LZMQ": 10, "HHXC": 10, "HHYY": 10, "HDY": -10, "SYDT": -10, "BFZY": -10, "FJYL": -10, "ZJWL": -10, "RDYL": -10},
+      "n": {"YZL": -10, "LZMQ": -10, "HHXC": -10, "HHYY": -10, "HDY": 10, "SYDT": 10, "BFZY": 10, "FJYL": 10, "ZJWL": 10, "RDYL": 10}
+    }
+  },
+  {
+    "q": "更喜欢攻比较主动的CP",
+    "a": {
+      "y": {"HDY": 10, "SYDT": 10, "LZMQ": 10, "FJYL": 10, "ZJWL": 10, "YZL": -10, "BFZY": -10, "HHXC": -10, "RDYL": -10, "HHYY": 0},
+      "n": {"HDY": -10, "SYDT": -10, "LZMQ": -10, "FJYL": -10, "ZJWL": -10, "YZL": 10, "BFZY": 10, "HHXC": 10, "RDYL": 10}
+    }
+  },
+  {
+    "q": "在乎学历要相配",
+    "a": {
+      "y": {"YZL": 10, "SYDT": 10, "LZMQ": 10, "ZJWL": 10, "HDY": -10, "BFZY": -10, "FJYL": -10, "HHXC": -10, "RDYL": -10, "HHYY": -10},
+      "n": {"HDY": 10, "BFZY": 10, "FJYL": 10, "HHXC": 10, "RDYL": 10, "HHYY": 10}
+    }
+  },
+  {
+    "q": "更喜欢BG感重的CP",
+    "a": {
+      "y": {"YZL": -10, "SYDT": -10, "LZMQ": -10, "ZJWL": -10, "HDY": 10, "BFZY": 10, "FJYL": -10, "HHXC": -10, "RDYL": -10, "HHYY": -10},
+      "n": {"YZL": 10, "SYDT": 10, "LZMQ": 10, "ZJWL": 10, "HDY": -10, "BFZY": -10, "FJYL": 10, "HHXC": 10, "RDYL": 10, "HHYY": 10}
+    }
+  },
+  {
+    "q": "更喜欢冤家模式的CP",
+    "a": {
+      "y": {"LZMQ": 10, "RDYL": 10},
+      "n": {"LZMQ": -10, "RDYL": -10}
+    }
+  },
+  {
+    "q": "更喜欢互攻的CP",
+    "a": {
+      "y": {"YZL": 10, "HHYY": 10},
+      "n": {"YZL": -10, "HHYY": -10, "HDY": 10, "SYDT": 10, "BFZY": 10, "LZMQ": 10, "FJYL": 10, "ZJWL": 10, "HHXC": 10, "RDYL": 10}
+    }
+  }
+]
