@@ -47,5 +47,8 @@ a {
   color: lightyellow;
   text-decoration: underline;
 }
+#app {
+  overflow: auto;
+}
 </style>
 
